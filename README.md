@@ -1,4 +1,4 @@
-# Algorithms-in-C
+# Algorithms
 # Algoritmaların Uygulamaları:
 
 # Insertion Sort
