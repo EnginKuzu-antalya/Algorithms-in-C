@@ -12,12 +12,12 @@ The project focuses on comparison-based sorting techniques, providing step-by-st
 
 ## 1. Insertion Sort
 
-Insertion Sort builds the final sorted array one item at a time. it is much less efficient on large lists than more advanced algorithms[cite: 9].
+Insertion Sort builds the final sorted array one item at a time. it is much less efficient on large lists than more advanced algorithms.
 
-*   **Logic:** It takes each element from the unsorted part and finds its appropriate position in the sorted part by shifting elements[cite: 9].
+*   **Logic:** It takes each element from the unsorted part and finds its appropriate position in the sorted part by shifting elements.
 *   **Implementation Details:** 
-    *   Uses a nested loop structure to compare and swap adjacent elements[cite: 9].
-    *   Prints the state of the array after each iteration to show progress[cite: 9].
+    *   Uses a nested loop structure to compare and swap adjacent elements.
+    *   Prints the state of the array after each iteration to show progress.
 *   **Time Complexity:** 
     *   Best Case: $O(n)$
     *   Average/Worst Case: $O(n^2)$
@@ -26,33 +26,17 @@ Insertion Sort builds the final sorted array one item at a time. it is much less
 
 ## 2. Selection Sort
 
-Selection Sort is an in-place comparison-based algorithm in which the list is divided into two parts: the sorted part at the left end and the unsorted part at the right end[cite: 10].
+Selection Sort is an in-place comparison-based algorithm in which the list is divided into two parts: the sorted part at the left end and the unsorted part at the right end.
 
-*   **Logic:** It repeatedly finds the minimum element from the unsorted part and puts it at the beginning of the sorted part[cite: 10].
+*   **Logic:** It repeatedly finds the minimum element from the unsorted part and puts it at the beginning of the sorted part.
 *   **Implementation Details:** 
-    *   Maintains a `key` (index) to track the minimum value found in each pass[cite: 10].
-    *   Swaps the found minimum with the first element of the unsorted section[cite: 10].
+    *   Maintains a `key` (index) to track the minimum value found in each pass.
+    *   Swaps the found minimum with the first element of the unsorted section.
 *   **Time Complexity:** 
     *   All Cases: $O(n^2)$
 
 ------------
 
-## How to Run
-
-1.  Clone the repository.
-2.  Navigate to the sorting directory.
-3.  Compile using `gcc`:
-    ```bash
-    gcc insertion_sort.c -o insertion
-    gcc selection_sort.c -o selection
-    ```
-4.  Execute the programs:
-    ```bash
-    ./insertion
-    ./selection
-    ```
-
-------------
 
 ## Tech
 
